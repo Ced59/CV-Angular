@@ -1,0 +1,51 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+               [mode]="(isHandset$ | async) ? 'over' : 'side'"
+               [opened]="(isHandset$ | async) === false"
+               class="sidenav"
+               fixedInViewport>
+<div class="d-flex align-items-center mt-4">
+    <div class="img-profil">
+      <img alt="Image de Profil"
+           class="img-thumbnail rounded-circle"
+           src="assets/img/profil/ProfilModifCV.jpg"
+      >
+    </div>
+  <div>
+    <h2 class="font-weight-bold ml-3 mr-3 mt-3">CAUDRON CEDRIC</h2>
+    <p class="ml-3 mr-3 font-italic border p-3 text-justify">En recherche d'un contrat d'alternance Développeur d'applications niveau Bac+3</p>
+  </div>
+</div>
+    <mat-toolbar><span class="font-weight-bold">Menu</span></mat-toolbar>
+
+    <mat-nav-list>
+
+      <a href="#" mat-list-item><span class="font-italic">Présentation</span></a>
+      <a href="#" mat-list-item><span class="font-italic">Mes compétences</span></a>
+      <a href="#" mat-list-item><span class="font-italic">Mes études</span></a>
+      <a href="#" mat-list-item><span class="font-italic">Mon parcours professionnel</span></a>
+      <a href="#" mat-list-item><span class="font-italic">Contact</span></a>
+
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        type="button">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+
+    </mat-toolbar>
+    <!-- Add Content Here -->
+
+    <main class="container">
+      <router-outlet></router-outlet>
+    </main>
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

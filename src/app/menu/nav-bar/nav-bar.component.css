@@ -1,0 +1,37 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 300px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.img-profil {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.mat-toolbar {
+  background: #599fd9;
+  background: linear-gradient(to right, #599fd9, #c2e59c);
+}
+
+.title {
+  text-align: center;
+}
+
+mat-sidenav-content {
+  background: #599fd9;
+  background: linear-gradient(to right, #599fd9, #c2e59c);
+}
