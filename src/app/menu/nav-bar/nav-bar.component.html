@@ -8,7 +8,7 @@
     <div class="img-profil">
       <img alt="Image de Profil"
            class="img-thumbnail rounded-circle"
-           src="assets/img/profil/ProfilModifCV.jpg"
+           src="assets/img/profil/Profil.jpg"
       >
     </div>
   <div>
@@ -20,11 +20,11 @@
 
     <mat-nav-list>
 
-      <a href="#" mat-list-item><span class="font-italic">Présentation</span></a>
-      <a href="#" mat-list-item><span class="font-italic">Mes compétences</span></a>
-      <a href="#" mat-list-item><span class="font-italic">Mes études</span></a>
-      <a href="#" mat-list-item><span class="font-italic">Mon parcours professionnel</span></a>
-      <a href="#" mat-list-item><span class="font-italic">Contact</span></a>
+      <a [routerLink]="['/']" mat-list-item><span class="font-italic">Présentation</span></a>
+      <a [routerLink]="['/competences']" mat-list-item><span class="font-italic">Mes compétences</span></a>
+      <a [routerLink]="['/etudes']" mat-list-item><span class="font-italic">Mes études</span></a>
+      <a [routerLink]="['/parcours-professionnel']" mat-list-item><span class="font-italic">Mon parcours professionnel</span></a>
+      <a [routerLink]="['/contact']" mat-list-item><span class="font-italic">Contact</span></a>
 
     </mat-nav-list>
   </mat-sidenav>
