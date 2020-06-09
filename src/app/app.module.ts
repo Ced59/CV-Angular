@@ -18,6 +18,10 @@ import { CompetencesComponent } from './pages/competences/competences.component'
 import { EtudesComponent } from './pages/etudes/etudes.component';
 import { ParcoursProfessionnelComponent } from './pages/parcours-professionnel/parcours-professionnel.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import {registerLocaleData} from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
+
+registerLocaleData(localeFr, 'fr-FR');
 
 @NgModule({
   declarations: [

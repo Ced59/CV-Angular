@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AgeService} from '../../services/age.service';
+import {Age} from '../../class/age';
+
 
 @Component({
   selector: 'app-accueil',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilComponent implements OnInit {
 
-  constructor() { }
+  age: Age = new Age();
+
+  test;
+
+  constructor(private service: AgeService) {
+  }
 
   ngOnInit(): void {
+    this.getAge();
+  }
+
+
+  getAge() {
+    this.service.getAge().subscribe((age) => this.age = age);
   }
 
 }
