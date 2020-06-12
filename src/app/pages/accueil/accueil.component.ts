@@ -12,8 +12,6 @@ export class AccueilComponent implements OnInit {
 
   age: Age = new Age();
 
-  test;
-
   constructor(private service: AgeService) {
   }
 

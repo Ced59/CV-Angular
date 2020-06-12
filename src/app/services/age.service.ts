@@ -13,10 +13,6 @@ export class AgeService {
   constructor() {
   }
 
-  getTestObservable(): Observable<number> {
-    return of(42);
-  }
-
   getAge(): Observable<Age> {
 
 
@@ -34,8 +30,6 @@ export class AgeService {
       this.age.seconds = diffDuration.seconds();
 
     }, 1000);
-
-
 
     return of(this.age);
   }

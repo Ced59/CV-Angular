@@ -34,3 +34,15 @@ mat-sidenav-content {
   background: #599fd9;
   background: linear-gradient(to right, #599fd9, #c2e59c);
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding: 1em 1em .5em;
+  background: #599fd9;
+  background: linear-gradient(to right, #599fd9, #c2e59c);
+}
