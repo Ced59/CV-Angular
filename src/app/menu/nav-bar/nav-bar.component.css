@@ -46,3 +46,7 @@ footer {
   background: #599fd9;
   background: linear-gradient(to right, #599fd9, #c2e59c);
 }
+
+.container {
+  margin-bottom: 100px;
+}

@@ -1,5 +1,5 @@
 .entete {
-  border: black solid 1px;
+  border: black groove 1px;
   padding: 2em;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #599fd9;
@@ -25,12 +25,10 @@
   }
 }
 
-.separator {
-  border-top: 2px dotted;
-  margin-top: 3em;
-}
 
 .emote {
   width: 1em;
 }
+
+
 

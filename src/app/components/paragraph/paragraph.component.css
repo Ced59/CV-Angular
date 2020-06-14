@@ -1,0 +1,69 @@
+.borderAndWhite {
+  border: black groove 1px;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #599fd9;
+  background-color: rgba(247, 231, 231, .3);
+  margin-bottom: 2em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* TODO Chercher comment automatiser le ciblage des classes qui sont générées automatiquement */
+
+.animateOrder1 {
+  animation-delay: .5s;
+  animation-duration: 6s;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+
+.animateOrder2 {
+  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animateOrder3 {
+  animation-delay: 1.5s;
+  animation-duration: 6s;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animateOrder4 {
+  animation-delay: 2s;
+  animation-duration: 6s;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animateOrder5 {
+  animation-delay: 2.5s;
+  animation-duration: 6s;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animateOrder6 {
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}

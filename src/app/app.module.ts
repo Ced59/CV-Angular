@@ -20,6 +20,9 @@ import { ParcoursProfessionnelComponent } from './pages/parcours-professionnel/p
 import { ContactComponent } from './pages/contact/contact.component';
 import {registerLocaleData} from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
+import { SeparatorComponent } from './components/separator/separator.component';
+import { ParagraphComponent } from './components/paragraph/paragraph.component';
+import { ListParagraphsComponent } from './components/list-paragraphs/list-paragraphs.component';
 
 registerLocaleData(localeFr, 'fr-FR');
 
@@ -32,7 +35,10 @@ registerLocaleData(localeFr, 'fr-FR');
     CompetencesComponent,
     EtudesComponent,
     ParcoursProfessionnelComponent,
-    ContactComponent
+    ContactComponent,
+    SeparatorComponent,
+    ParagraphComponent,
+    ListParagraphsComponent
   ],
   imports: [
     BrowserModule,

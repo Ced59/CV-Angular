@@ -1,0 +1,24 @@
+<ul *ngFor="let paragraph of listParagraphs" [ngSwitch]="paragraph.type">
+
+  <li *ngSwitchCase="'paragraph'">
+    <app-paragraph [classToAnimate]="'animateOrder' + paragraph.id"
+                   [para]="paragraph.text"
+                   [style]="paragraph.type"></app-paragraph>
+  </li>
+
+  <li *ngSwitchCase="'borderAndWhite'">
+    <app-paragraph [classToAnimate]="'animateOrder' + paragraph.id"
+                   [para]="paragraph.text"
+                   [style]="paragraph.type"
+                   [stylisedText]="'borderAndWhite'"></app-paragraph>
+  </li>
+
+  <li *ngSwitchCase="'title'">
+
+    <app-paragraph [classToAnimate]="'animateOrder' + paragraph.id"
+                   [para]="paragraph.text"
+                   [style]="paragraph.type"></app-paragraph>
+
+  </li>
+
+</ul>
