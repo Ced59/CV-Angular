@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {IEventsParcoursPro} from '../interfaces/IEvents-parcours-pro';
+import {IEventsTimelines} from '../interfaces/IEvents-timelines';
 import {parcoursProEvents} from '../mocks/parcoursProEventsMock';
 
 @Injectable({
@@ -10,7 +10,7 @@ export class ParcoursProService {
   constructor() {
   }
 
-  getParcoursProEvents(): IEventsParcoursPro[] {
+  getParcoursProEvents(): IEventsTimelines[] {
     return parcoursProEvents;
   }
 }

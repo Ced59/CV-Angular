@@ -1,4 +1,4 @@
-export interface IEventsParcoursPro {
+export interface IEventsTimelines {
   id: number;
   title: string;
   content: string;

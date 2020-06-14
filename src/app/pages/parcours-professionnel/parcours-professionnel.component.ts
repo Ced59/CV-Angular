@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {IEventsParcoursPro} from '../../interfaces/IEvents-parcours-pro';
+import {IEventsTimelines} from '../../interfaces/IEvents-timelines';
 import {ParcoursProService} from '../../services/parcours-pro.service';
 
 @Component({
@@ -9,7 +9,7 @@ import {ParcoursProService} from '../../services/parcours-pro.service';
 })
 export class ParcoursProfessionnelComponent implements OnInit {
 
-  events: IEventsParcoursPro[];
+  events: IEventsTimelines[];
 
   constructor(
     private service: ParcoursProService

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {EtudesService} from '../../services/etudes.service';
+import {IEventsTimelines} from '../../interfaces/IEvents-timelines';
 
 @Component({
   selector: 'app-etudes',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EtudesComponent implements OnInit {
 
-  constructor() { }
+  events: IEventsTimelines[];
+
+  constructor(
+    private service: EtudesService
+  ) {
+  }
 
   ngOnInit(): void {
+    this.events = this.service.getEtudesEvents();
   }
 
 }
