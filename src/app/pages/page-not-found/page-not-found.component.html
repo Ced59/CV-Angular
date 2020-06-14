@@ -1,1 +1,13 @@
-<p>page-not-found works!</p>
+<h1 class="text-center">Oups il n'y a rien par ici...</h1>
+
+<img alt="You shall not pass!" class="mt-5 img-fluid img-thumbnail rounded mx-auto d-block"
+     src="assets/img/forbidden/not-pass.gif">
+
+<app-paragraph
+  [para]="'Avez vous fait une petite erreur d\'URL? Ou est-ce intentionnel? En tout cas j\'ai prévu cette éventualité! ;-)'"
+  [style]="'borderAndWhite'"
+  [stylisedText]="'borderAndWhite'"></app-paragraph>
+
+<div class="text-center ml-5">
+  <a class="btn btn-dark" routerLink="/">Retour à l'accueil</a>
+</div>
