@@ -89,3 +89,4 @@ export const
       icon: 'assets/img/parcoursPro/clavier-et-notes-de-musique.jpeg'
     }
   ];
+
