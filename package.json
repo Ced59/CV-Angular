@@ -24,6 +24,7 @@
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "moment": "^2.26.0",
+    "ng-vertical-timeline": "^0.1.1",
     "popper": "^1.0.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",

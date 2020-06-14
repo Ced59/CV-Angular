@@ -23,6 +23,7 @@ import localeFr from '@angular/common/locales/fr';
 import { SeparatorComponent } from './components/separator/separator.component';
 import { ParagraphComponent } from './components/paragraph/paragraph.component';
 import { ListParagraphsComponent } from './components/list-paragraphs/list-paragraphs.component';
+import {NgVerticalTimelineModule} from 'ng-vertical-timeline';
 
 registerLocaleData(localeFr, 'fr-FR');
 
@@ -50,7 +51,8 @@ registerLocaleData(localeFr, 'fr-FR');
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    NgVerticalTimelineModule
   ],
   providers: [],
   bootstrap: [AppComponent]

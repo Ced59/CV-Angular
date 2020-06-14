@@ -21,7 +21,7 @@
 
 .animateOrder1 {
   animation-delay: .5s;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   opacity: 0;
   animation-fill-mode: forwards;
@@ -30,7 +30,7 @@
 
 .animateOrder2 {
   animation-delay: 1s;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   opacity: 0;
   animation-fill-mode: forwards;
@@ -38,7 +38,7 @@
 
 .animateOrder3 {
   animation-delay: 1.5s;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   opacity: 0;
   animation-fill-mode: forwards;
@@ -46,7 +46,7 @@
 
 .animateOrder4 {
   animation-delay: 2s;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   opacity: 0;
   animation-fill-mode: forwards;
@@ -54,7 +54,7 @@
 
 .animateOrder5 {
   animation-delay: 2.5s;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   opacity: 0;
   animation-fill-mode: forwards;
@@ -62,7 +62,7 @@
 
 .animateOrder6 {
   animation-delay: 3s;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   opacity: 0;
   animation-fill-mode: forwards;

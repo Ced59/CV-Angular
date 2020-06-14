@@ -4,7 +4,7 @@
   border-radius: 10px;
   box-shadow: 10px 10px 10px #599fd9;
   background-color: rgba(247, 231, 231, .3);
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: fadeIn;
   font-size: 1em;
 }
