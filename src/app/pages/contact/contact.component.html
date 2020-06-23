@@ -1,22 +1,62 @@
-<h1 class="text-center mt-3 mb-5 border p-3 border-primary">Page "Contact" en construction</h1>
+<h1 class="text-center borderAndWhite">Pour me contacter</h1>
 
-<img src="assets/img/under-construction/logo-du-site-construction_13222-3.jpg" alt="en construction" class="img-fluid rounded mx-auto d-block">
+<app-separator [style]="'dotted'"></app-separator>
 
-<h3 class="mb-4 text-center">Mais en attendant vous pouvez aller voir un échantillon de mes réalisations:</h3>
 
-<ul class="text-center list-unstyled">
-  <li>
-    <a class="btn btn-dark m-2" href="http://breakout-game.cedric-caudron.com" target="_blank">Jeu de casse-brique en JAVA</a>
-  </li>
-  <li>
-    <a class="btn btn-dark m-2" href="http://darkweb-expose.cedric-caudron.com" target="_blank">Exposé sur le Dark-Web en Angular</a>
-  </li>
-  <li>
-    <a class="btn btn-dark m-2" href="http://saute-canon.cedric-caudron.com" target="_blank">Ebauche de jeu de plateforme style FPS réalisé avec Unity3D</a>
-  </li>
-  <li>
-    <a class="btn btn-dark m-2" href="http://valarep-cine.cedric-caudron.com" target="_blank">Exercice sur Angular réalisé dans le cadre de mon apprentissage</a>
-  </li>
-</ul>
+<app-paragraph [para]="'Interessés? Intrigués?'" [style]="'title'"></app-paragraph>
 
-<p class="text-center">Bientôt le CV sera en ligne. Réalisé en Angular, qui promettra bien des surprises!</p>
+<app-paragraph
+  [para]="'N\'hésitez pas à me contacter, que ce soit pour (l\'idéal) me proposer le contrat de mes rêves, ou simplement pour me demander un complément d\'informations.'"></app-paragraph>
+
+<div class="expandable borderAndWhite">
+
+  <div class="text-anim">
+    <h4>Mes coordonnées:</h4>
+
+    <ul class="ml-5">
+      <li class="row ml-2 mb-4">
+        <div class="col-1">
+          <span class="material-icons-outlined align-middle">call</span>
+        </div>
+        <div class="col-8">
+          <span class="ml-3">06-08-34-71-04</span>
+        </div>
+      </li>
+      <li class="row ml-2 mb-4">
+        <div class="col-1">
+          <span class="material-icons-outlined align-middle">home</span>
+        </div>
+        <div class="col-8">
+          <span class="ml-3">11 rue Denis Papin</span> <br>
+          <span class="ml-3">59490 SOMAIN</span>
+        </div>
+      </li>
+      <li class="row ml-2 mb-4">
+        <div class="col-1">
+          <span class="material-icons align-middle">mail_outline</span>
+        </div>
+        <div class="col-8">
+          <a href="mailto:c.caudron59@gmail.com" target="_blank" class="ml-3 btn btn-outline-success">c.caudron59@gmail.com</a>
+        </div>
+      </li>
+      <li class="row ml-2 mb-4">
+        <div class="col-1">
+          <span class="material-icons-outlined align-middle">code</span>
+        </div>
+        <div class="col-8">
+          <a href="https://github.com/Ced59" target="_blank" class="ml-3 btn btn-outline-success">Mon compte Github</a>
+        </div>
+      </li>
+      <li class="row ml-2 mb-4">
+        <div class="col-1">
+          <span class="material-icons-outlined align-middle">work_outline</span>
+        </div>
+        <div class="col-8">
+          <a href="https://www.linkedin.com/in/cauced" target="_blank" class="ml-3 btn btn-outline-success">Mon profil LinkedIn</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+</div>

@@ -18,8 +18,6 @@ export class AgeService {
 
     setInterval(() => {
 
-      moment.locale('fr');
-
       let diffDuration = moment.duration(moment().diff(moment([1984, 10, 2, 0, 8, 0])));
 
       this.age.year = diffDuration.years();
